@@ -19,6 +19,6 @@ def find_largest2(self, arr: list, k: int) -> int:
     for i in range(0, k-1):
         temp.remove(max(temp))
     return max(temp)
-    # O(N)*k + O(N) = O(N)
+    # O(N) + O(N) = O(N)
 
-# The first approach is better as it has a better time complexity
+# The first approach is preferred due to a better time complexity
